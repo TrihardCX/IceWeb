@@ -42,10 +42,6 @@ p {
 a {
   text-decoration: none;
 }
-a:hover {
-  text-decoration: underline;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -88,7 +84,6 @@ button {
 }
 .social-button:before {
   content: '';
-  background-color: #000;
   width: 120%;
   height: 120%;
   position: absolute;
@@ -98,6 +93,8 @@ button {
           transform: rotate(45deg);
   -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
   transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  z-index: -1;
+  border: 0px!important;
 }
 .social-button .fa {
   font-size: 38px;
@@ -146,3 +143,5 @@ button {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
+
+
