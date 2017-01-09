@@ -6,6 +6,7 @@ Add countdown timer for unban
 
 Add some kind of logo
 
+Visual notif when Ice is streaming/live on twitch (embed.ly ?)
 
 
 
