@@ -135,7 +135,7 @@ button {
   background-color: #7289da;
 }
 .social-button.discord .fa {
-  color: #7289da;
+  color: #fff;
 }
 .social-button:focus:before, .social-button:hover:before {
   top: -10%;
